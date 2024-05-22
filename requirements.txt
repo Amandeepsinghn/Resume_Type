@@ -13,4 +13,6 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
--e .
+scikit-learn
+dill
+#-e .

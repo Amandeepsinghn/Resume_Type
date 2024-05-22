@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from brain_tumor_classification.logger import logging
+from src.logger import logging
 import json
 import joblib
 from ensure import ensure_annotations

@@ -15,4 +15,5 @@ Flask
 Flask-Cors
 scikit-learn
 dill
+nltk
 #-e .

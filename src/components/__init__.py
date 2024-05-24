@@ -1,0 +1,3 @@
+from src.components.data_ingestion import Data_ingestion
+from src.components.transformation import Data_transformation
+from src.components.model_training import Model_training_

@@ -7,4 +7,15 @@ ingestion:
   test_data: artifacts/data_ingestion/test.csv
   train_data: artifacts/data_ingestion/train.csv
 
+
+trasformation:
+  root_dir: artifacts/transformation
+  transformed_train_data: artifacts/transformation/train.csv
+  transformed_test_data: artifacts/transformation/test.csv
+  transformation_pickle_file: artifacts/transformation/trans.pickle 
+
+
+model_training:
+  root_dir: artifacts/trained_model 
+  saved_model: artifacts/trained_model/model.dill
   

@@ -16,4 +16,6 @@ Flask-Cors
 scikit-learn
 dill
 nltk
+pytesseract
+opencv-python
 #-e .

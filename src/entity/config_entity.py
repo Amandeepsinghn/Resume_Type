@@ -26,5 +26,6 @@ class transformation:
 class model_training:
     root_dir: Path 
     saved_model: Path
+    saved_vector_model: Path
 
   

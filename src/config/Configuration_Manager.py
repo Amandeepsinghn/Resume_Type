@@ -50,7 +50,10 @@ class Configuration_Manager:
 
         model_=model_training(
             root_dir=config.root_dir,
-            saved_model=config.saved_model
+            saved_model=config.saved_model,
+            saved_vector_model=config.saved_vector_model
+
         )
 
         return model_
+    

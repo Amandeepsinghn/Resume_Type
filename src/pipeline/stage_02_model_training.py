@@ -19,3 +19,4 @@ class Training:
         z.model_training_start()
         z.model_score()
         z.save_model()
+        z.save_vectorizer()

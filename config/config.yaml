@@ -18,4 +18,5 @@ trasformation:
 model_training:
   root_dir: artifacts/trained_model 
   saved_model: artifacts/trained_model/model.dill
+  saved_vector_model: artifacts/trained_model/vector.dill
   

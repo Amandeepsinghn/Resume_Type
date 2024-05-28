@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Welcome to Resume Shortlisting Web Application</h1>
+        
+        <!-- Form that handles POST requests -->
+        <form method="post" action="/" enctype="multipart/form-data" class="mt-4">
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="inputImage">Upload Image</label>
+                <input type="file" class="form-control" id="inputImage" name="image" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+        
+        <!-- Display the prediction result -->
+        {% if prediction %}
+            <div class="mt-4">
+                <h2>Prediction Result</h2>
+                <p><strong>Result:</strong> {{ prediction }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

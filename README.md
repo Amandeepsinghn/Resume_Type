@@ -2,6 +2,10 @@
 
 
 
+https://github.com/Amandeepsinghn/Resume_Type/assets/137553469/7c7882b1-6e3e-4940-9e74-5b134a14e0f1
+
+
+
 
 ## Workflow
 
